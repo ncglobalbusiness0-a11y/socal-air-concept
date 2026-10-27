@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SoCal Air Systems | Design Concept</title>
+<style>
+  :root{--brand:#1f8f3a;--brand-dark:#146628;--navy:#0e2a47;--light:#f4f7f9;--text:#2c3e50}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--text);line-height:1.55;padding-bottom:64px}
+  a{color:inherit}
+  .wrap{max-width:1050px;margin:0 auto;padding:0 18px}
+  .ribbon{background:#fff3cd;color:#664d03;font-size:12px;text-align:center;padding:6px 10px}
+  header{background:var(--navy);color:#fff;position:sticky;top:0;z-index:20}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+  .logo{font-weight:800;font-size:18px}
+  .call-btn{background:var(--brand);color:#fff;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:8px;font-size:15px}
+  .hero{background:linear-gradient(135deg,var(--navy),#17496f);color:#fff;padding:56px 0 64px}
+  .hero h1{font-size:clamp(28px,6vw,46px);line-height:1.15;max-width:640px}
+  .hero h1 em{font-style:normal;color:#7ee08f}
+  .hero p{margin:16px 0 26px;max-width:520px;opacity:.92;font-size:17px}
+  .btns{display:flex;gap:12px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:14px 22px;border-radius:10px;font-weight:700;text-decoration:none;font-size:16px}
+  .btn.primary{background:var(--brand)}
+  .btn.ghost{border:2px solid #fff;color:#fff}
+  .trust{background:var(--light);padding:22px 0}
+  .trust .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;text-align:center}
+  .trust strong{display:block;font-size:24px;color:var(--navy)}
+  .trust span{font-size:13px}
+  section{padding:54px 0}
+  h2{color:var(--navy);font-size:28px;margin-bottom:8px}
+  .sub{margin-bottom:28px;max-width:560px}
+  .grid{display:grid;gap:16px}
+  @media(min-width:760px){.grid.three{grid-template-columns:repeat(3,1fr)}.trust strong{font-size:30px}}
+  .card{border:1px solid #dde5ea;border-radius:14px;padding:22px;background:#fff}
+  .card h3{color:var(--navy);margin-bottom:8px;font-size:19px}
+  .card ul{padding-left:18px;margin-bottom:14px;font-size:15px}
+  .card a.link{color:var(--brand-dark);font-weight:700;text-decoration:none}
+  .photo{height:150px;border-radius:10px;margin-bottom:14px;background:repeating-linear-gradient(45deg,#e9eef2,#e9eef2 12px,#f4f7f9 12px,#f4f7f9 24px);display:flex;align-items:center;justify-content:center;font-size:12px;color:#6b7c88;text-align:center;padding:8px}
+  .alt{background:var(--light)}
+  .why li{margin:0 0 10px 22px}
+  .review{font-size:15px}
+  .stars{color:#f5a623;letter-spacing:2px;margin-bottom:6px}
+  form{display:grid;gap:12px;max-width:520px}
+  input,select,textarea{width:100%;padding:13px;border:1px solid #c5d0d8;border-radius:8px;font:inherit}
+  button{background:var(--brand);color:#fff;border:0;padding:15px;border-radius:10px;font-weight:700;font-size:16px;cursor:pointer}
+  footer{background:var(--navy);color:#cfd9e2;padding:30px 0;font-size:14px}
+  .sticky{position:fixed;left:0;right:0;bottom:0;background:var(--brand);text-align:center;z-index:30;box-shadow:0 -2px 10px rgba(0,0,0,.2)}
+  .sticky a{display:block;color:#fff;font-weight:800;text-decoration:none;padding:16px;font-size:17px}
+  @media(min-width:760px){.sticky{display:none}body{padding-bottom:0}}
+</style>
+</head>
+<body>
+
+<div class="ribbon">Design concept for discussion — not a live website</div>
+
+<header>
+  <div class="wrap">
+    <div class="logo">SoCal Air Systems</div>
+    <a class="call-btn" href="tel:+13109740122">Call Now</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Fast, reliable <em>HVAC service</em> in Los Angeles</h1>
+    <p>HVAC and refrigeration engineering, installation, controls and retrofit service for residential, commercial and industrial projects.</p>
+    <div class="btns">
+      <a class="btn primary" href="tel:+13109740122">Call (310) 974-0122</a>
+      <a class="btn ghost" href="#quote">Request a Free Quote</a>
+    </div>
+  </div>
+</div>
+
+<div class="trust">
+  <div class="wrap">
+    <div><strong>5.0★</strong><span>Google rating</span></div>
+    <div><strong>45</strong><span>Google reviews</span></div>
+    <div><strong>35</strong><span>Years of experience</span></div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>Our Services</h2>
+    <p class="sub">Everything you need to keep your space comfortable, from emergency repairs to full installations.</p>
+    <div class="grid three">
+      <div class="card">
+        <div class="photo">Add a real photo of your work here</div>
+        <h3>Air Conditioning</h3>
+        <ul><li>Ductless mini-splits</li><li>Heat pumps</li><li>Zoning systems</li><li>Rooftop package units</li></ul>
+        <a class="link" href="#quote">Get a quote →</a>
+      </div>
+      <div class="card">
+        <div class="photo">Add a real photo of your work here</div>
+        <h3>Ventilation</h3>
+        <ul><li>Rectangular HVAC ductwork</li><li>Exhaust ventilation</li><li>Air balancing</li></ul>
+        <a class="link" href="#quote">Get a quote →</a>
+      </div>
+      <div class="card">
+        <div class="photo">Add a real photo of your work here</div>
+        <h3>Refrigeration</h3>
+        <ul><li>Retail stores</li><li>Restaurants</li><li>Pharmacies</li><li>Warehouses</li></ul>
+        <a class="link" href="#quote">Get a quote →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Why choose us</h2>
+    <ul class="why">
+      <li><strong>Open 24 hours</strong> for emergencies.</li>
+      <li><strong>35 years</strong> of quality work at fair prices, completed on time.</li>
+      <li><strong>Financing available</strong> so you can pay over time.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>What customers say</h2>
+    <p class="sub">Real Google reviews would be shown here.</p>
+    <div class="grid three">
+      <div class="card review"><div class="stars">★★★★★</div>[Real customer review goes here]<br><br><strong>— Customer name</strong></div>
+      <div class="card review"><div class="stars">★★★★★</div>[Real customer review goes here]<br><br><strong>— Customer name</strong></div>
+      <div class="card review"><div class="stars">★★★★★</div>[Real customer review goes here]<br><br><strong>— Customer name</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="quote">
+  <div class="wrap">
+    <h2>Request a free quote</h2>
+    <p class="sub">Tell us what you need and we'll call you back quickly.</p>
+    <form onsubmit="event.preventDefault();alert('This is a design concept. The form is not active.');">
+      <input name="name" placeholder="Your name" required>
+      <input name="phone" type="tel" placeholder="Phone number" required>
+      <select name="service">
+        <option>Air Conditioning</option><option>Ventilation</option><option>Refrigeration</option><option>Other</option>
+      </select>
+      <textarea name="message" rows="4" placeholder="How can we help?"></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <strong>SoCal Air Systems</strong><br>
+    Los Angeles, CA<br>
+    (310) 974-0122
+  </div>
+</footer>
+
+<div class="sticky"><a href="tel:+13109740122">📞 Tap to Call Now</a></div>
+
+</body>
+  </html>
